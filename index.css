@@ -1,0 +1,193 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 95%;
+}
+
+img{
+
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: -100px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(255, 0, 255, 0.158);
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    position: absolute;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    color: white;
+    font-size: xx-large;
+    color: orange;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    font-size: x-large;
+}
+
+.nav-item{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(128, 83, 0);
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.header{
+    border: 2px solid magenta;
+    padding: 10px;
+    color: orange;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    margin-top: 15px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.intro{
+    border-left: 2px solid magenta;
+    border-top: 2px solid magenta;
+    margin-left: 10px;
+    padding-left: 10px;
+    color: orange;
+    width: 50%; 
+    font-size: 2em;
+}
+
+.frankkis-tile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    border-left: 2px solid magenta;
+    border-top: 2px solid magenta;
+    border-bottom: 2px solid magenta;
+    margin-left: 8px;
+}
+
+.frank-header{
+    color: orange;
+    display: flex;
+    justify-content: start;
+    height: 100px;
+    margin-bottom: 70px;
+
+}
+
+.frank{
+   color: orange;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.image-container-frankki{
+    height: 240px;
+    width: 100%;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-right: 10px solid orange;
+    border-right-style: double;
+
+}
+
+.thanks-info{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.thanks{
+    margin-top: -50px;
+}
+
+#her{
+    width: 250px;
+}
+
+.artist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    flex-grow: 1;
+    background-color: black;
+}
+
+footer{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.bottom{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    border: 6px solid magenta;
+    border-style: double;
+    margin-left: auto;
+    margin-right: auto;
+}
